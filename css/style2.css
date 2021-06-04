@@ -1,0 +1,104 @@
+/*這是基本網頁設定*/
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+/*這是選單設定*/
+nav{
+	display:inline;
+}
+.navbar-brand img {
+	height: 50px;
+	float:left;
+
+}
+.navbar-brand h6{
+	padding-top: 12.5px;
+	font-weight: bold;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+
+/*這是關於我們*/
+.section1{
+	margin-right: 80px;
+    margin-left: 80px;
+}
+.title1{
+	margin-top: 130px;
+	color:  #F4715B;
+	text-align: center;
+}
+.p1{
+	text-align: center;
+	padding: 30px;
+	font-family: PingFangTC-Light, sans-serif; font-size: 28px;
+}
+
+/*這是大框框*/
+.p2{
+  margin-right: 62px;
+  margin-left: 62px;
+  border-style: dotted;
+　border-top:5px ;
+　border-right:8px ;
+　border-left:7px ;
+　border-bottom:3px;
+　padding-bottom:30px;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  font-family: PingFangTC-Semibold, sans-serif;
+  }
+
+
+/*這是理念與使命*/
+.section2{
+  margin-right: 82px;
+  margin-left: 82px;
+}
+.title2{
+	color: #F4715B;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.p3{
+	line-height: 1.5;
+}
+.boldtitle{
+	font-family: PingFangTC-Semibold, sans-serif;
+	font-size: 28px;
+}
+
+.text{
+	font-family: PingFangTC-Light, sans-serif;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+/*這是footer*/
+.line{
+	border: none;border-bottom:2px dotted gray
+}
+footer span{
+	font-size: 10px;
+}
+footer{
+		text-align: center;
+		margin-bottom: 20px;
+}
